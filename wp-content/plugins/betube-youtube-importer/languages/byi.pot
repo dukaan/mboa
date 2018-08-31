@@ -1,0 +1,301 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: BeTube YouTube Importer\n"
+"POT-Creation-Date: 2017-02-28 17:35+0500\n"
+"PO-Revision-Date: 2017-02-28 17:35+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: betube-youtube-importer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: betube-youtube-importer.php:28
+msgid "Once every 5 minutes"
+msgstr ""
+
+#: betube-youtube-importer.php:33
+msgid "Once every 30 minutes"
+msgstr ""
+
+#: betube-youtube-importer.php:38
+msgid "Once every 60 minutes"
+msgstr ""
+
+#: betube-youtube-importer.php:43
+msgid "Once every day"
+msgstr ""
+
+#: pages/add_channel.php:4
+msgid "Add Channel"
+msgstr ""
+
+#: pages/add_channel.php:11 pages/view_channels.php:12
+#: pages/view_channels.php:40
+msgid "Name"
+msgstr ""
+
+#: pages/add_channel.php:14
+msgid "Type channel name"
+msgstr ""
+
+#: pages/add_channel.php:19
+msgid "Select Channel/PlayList"
+msgstr ""
+
+#: pages/add_channel.php:23 pages/view_channels.php:88
+msgid "YouTube Channel"
+msgstr ""
+
+#: pages/add_channel.php:24
+msgid "YouTube PlayList"
+msgstr ""
+
+#: pages/add_channel.php:30
+msgid "Put Channel ID or PlayList"
+msgstr ""
+
+#: pages/add_channel.php:33
+msgid "Your Channel ID or Playlist ID"
+msgstr ""
+
+#: pages/add_channel.php:38
+msgid "Select Video Categories"
+msgstr ""
+
+#: pages/add_channel.php:49
+msgid "Select Author"
+msgstr ""
+
+#: pages/process.php:23
+msgid "Processing"
+msgstr ""
+
+#: pages/process.php:48
+msgid "No New Video Found Try again to fetch new videos."
+msgstr ""
+
+#: pages/process.php:75
+msgid "Channel Not Found"
+msgstr ""
+
+#: pages/settings.php:18
+msgid "beTube YouTube Importer General Settings"
+msgstr ""
+
+#: pages/settings.php:25
+msgid "Post Status"
+msgstr ""
+
+#: pages/settings.php:28
+msgid "Publish"
+msgstr ""
+
+#: pages/settings.php:29
+msgid "Draft"
+msgstr ""
+
+#: pages/settings.php:30
+msgid ""
+"Please select Post Status, IF you will select Publish then All Posts will be "
+"goes to Public/Live"
+msgstr ""
+
+#: pages/settings.php:35
+msgid "Number of Posts in Single Cron"
+msgstr ""
+
+#: pages/settings.php:45
+msgid "Videos"
+msgstr ""
+
+#: pages/settings.php:50
+msgid "Video Size Width x Height"
+msgstr ""
+
+#: pages/settings.php:58
+msgid "Import the latest videos every:"
+msgstr ""
+
+#: pages/settings.php:64
+msgid "Every Day"
+msgstr ""
+
+#: pages/settings.php:67
+msgid "Every Hour"
+msgstr ""
+
+#: pages/settings.php:70
+msgid "Every 30 Min"
+msgstr ""
+
+#: pages/settings.php:73
+msgid "Every 5 Min"
+msgstr ""
+
+#: pages/settings.php:75
+msgid "hours"
+msgstr ""
+
+#: pages/settings.php:76
+msgid "Set this to determine how many hours to wait between imports."
+msgstr ""
+
+#: pages/settings.php:81
+msgid "YouTube API Key"
+msgstr ""
+
+#: pages/settings.php:86
+msgid "To get your YouTube API key, visit this address:"
+msgstr ""
+
+#: pages/settings.php:88
+msgid "After signing in, visit"
+msgstr ""
+
+#: pages/settings.php:88
+msgid "Create a new project"
+msgstr ""
+
+#: pages/settings.php:88
+msgid "and enable"
+msgstr ""
+
+#: pages/settings.php:88
+msgid "YouTube Data API"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "To get your API key visit"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "APIs"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "auth"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "and under"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "Public API access"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "create a new"
+msgstr ""
+
+#: pages/settings.php:91
+msgid "Server Key"
+msgstr ""
+
+#: pages/view_channels.php:4
+msgid "Channels / Playlists"
+msgstr ""
+
+#: pages/view_channels.php:4
+msgid "Add New"
+msgstr ""
+
+#: pages/view_channels.php:15 pages/view_channels.php:43
+msgid "Channel/Playlist"
+msgstr ""
+
+#: pages/view_channels.php:18 pages/view_channels.php:46
+msgid "Catgories"
+msgstr ""
+
+#: pages/view_channels.php:21 pages/view_channels.php:49
+msgid "Author"
+msgstr ""
+
+#: pages/view_channels.php:24 pages/view_channels.php:52
+msgid "Type"
+msgstr ""
+
+#: pages/view_channels.php:27 pages/view_channels.php:55
+msgid "Total Videos"
+msgstr ""
+
+#: pages/view_channels.php:30 pages/view_channels.php:58
+msgid "Total Posted"
+msgstr ""
+
+#: pages/view_channels.php:33 pages/view_channels.php:61
+msgid "Actions"
+msgstr ""
+
+#: pages/view_channels.php:90
+msgid "YouTube Playlist"
+msgstr ""
+
+#: pages/view_channels.php:113
+msgid "Please read these points"
+msgstr ""
+
+#: pages/view_channels.php:114
+msgid "Process Now"
+msgstr ""
+
+#: pages/view_channels.php:114
+msgid ""
+"As you know we have auto import for all channels, But if you dont want to "
+"wait then click on"
+msgstr ""
+
+#: pages/view_channels.php:114
+msgid "button and then importing will be start right away."
+msgstr ""
+
+#: pages/view_channels.php:115
+msgid "Delete"
+msgstr ""
+
+#: pages/view_channels.php:115
+msgid "If you want to delete channel then you can click this button."
+msgstr ""
+
+#: pages/view_channels.php:116
+msgid "Reset"
+msgstr ""
+
+#: pages/view_channels.php:116
+msgid ""
+"If you want to import videos from start then click this button then it will "
+"start importing from zero. Make Sure you have deleted all posts before to "
+"reset otherwise posts will be duplicate"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BeTube YouTube Importer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.joinwebs.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"BeTube YouTube Importer Plugin will automatically imports YouTube videos "
+"from any YouTube channel, creates posts for them and publishes them or "
+"creates a post draft according to your settings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "JoinWebs"
+msgstr ""

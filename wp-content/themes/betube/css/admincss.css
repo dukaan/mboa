@@ -1,0 +1,6 @@
+.redux-message { display: none; }
+.rAds{ display: none !important; }
+#redux_dashboard_widget{display: none !important;}
+.redux-container-sorter ul{
+	width:200px !important;
+}

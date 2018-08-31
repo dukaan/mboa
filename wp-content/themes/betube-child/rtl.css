@@ -1,0 +1,1100 @@
+.float-right {
+    float: left !important;
+}
+
+.float-left {
+    float: right !important;
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+.text-left {
+    text-align: right !important;
+}
+
+.pull-left {
+    float: right !important;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+#premium .navText a.prev {
+    float: left;
+    margin-right: 0;
+}
+
+a.prev {
+    float: left;
+    margin-right: 5px;
+}
+.top-bar-left{
+    float: right;
+}
+.top-bar-right{
+    float: left;
+}
+.top-bar, .top-bar ul{
+    background: #fff;
+}
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after{
+    border-color: transparent;
+}
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a::after{
+    border-color: transparent #6c6c6c transparent transparent;
+}
+.is-dropdown-submenu-parent a::after{
+    top: 45%;
+    right: 93%;
+}
+/* ==========================================================================
+	1- General Theme Settings
+   ========================================================================== */
+
+.button {
+    background: #444;
+    padding: 1.1875em 1.5625em;
+    border-radius: 5px;
+}
+
+.button:hover {
+    
+}
+.button:hover, .button:focus{
+    background: #e96969;
+    color: #fff;
+}
+
+.removePadRight {
+    padding-left: 0 !important;
+}
+.is-open-left{
+	transform:translateX(-250px);
+}
+
+/* ==========================================================================
+	2- Radio and Checkbox
+   ========================================================================== */
+
+.customLabel {
+    padding-right: 25px;
+    margin-left: 15px;
+}
+
+.customLabel:before {
+    margin-left: 10px;
+    right: 0;
+}
+
+
+/* ==========================================================================
+	3- Home Page v1 i) Top
+   ========================================================================== */
+
+.topBar .topBarMenu .menu li a {
+    padding: 8px 0 8px 10px;
+}
+
+.top-button .menu li.dropdown-login .login-form {
+    right: -200%;
+}
+
+.top-button .menu li.dropdown-login .login-form .input-group .input-group-label:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.top-button .menu li.dropdown-login .login-form .input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.topProfilebtn a.button i{
+    margin-left: 10px;
+}
+
+/* ==========================================================================
+	ii) NavBar
+   ========================================================================== */
+
+#navBar .top-bar .menu > li {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+#navBar .top-bar .search-btn {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+
+}
+#navBar .topbar-full .topnews .newsTicker i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+#navBar .topbar-full .topnews .newsTicker span {
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+#navBar .topbar-full .search-bar-full input[type="search"] {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#navBar .topbar-full .search-bar-full .icon-btn .button {
+    margin-left: 0;
+    text-align: right;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#navBar .topbar-full .search-bar-full .icon-btn i {
+    left: -40px;
+}
+#navBar .navFull .topbar-light-dark .menu > li {
+    padding-left: 0;
+    padding-right: 2px;
+}
+#navBar .navFull .topbar-light-dark .topnews .newsTicker i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+#navBar .navFull .topbar-light-dark .topnews .newsTicker span {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+    border-left: 1px solid #fff;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#navBar .middleNav .search-btns li.betubeSearch {
+    padding-left: 0;
+    padding-right: 5px;
+}
+#navBar .middleNav .search-btns li.login a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+#premium .heading h4 i{
+    margin-right: 0;
+    margin-left: 11px;
+}
+/* ==========================================================================
+	5- Category
+   ========================================================================== */
+.category-heading .cat-head i {
+    margin-right: 0;
+    margin-left: 11px;
+}
+
+/* ==========================================================================
+	6 - Main Content
+   ========================================================================== */
+.parentbg .sidebarBg {
+    left: auto;
+    right: 102%;
+}
+.content .post .post-thumb .video-stats {
+    right: 0;
+}
+.content .post .post-thumb .video-stats .thumb-stats:first-of-type {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.content .post .post-thumb .video-stats .thumb-stats i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.content .post .post-des {
+    padding: 15px 10px 15px 0;
+}
+.content .post .post-des .post-stats {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.content .post .post-des .post-stats p {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.content .post .post-des .post-button a i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.content .main-heading .head-title i {
+    margin-right: 0;
+    margin-left: 11px;
+}
+.content .main-heading .tabs li.tabs-title {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.content .head-text h4 i {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.content .list-group .list .post .post-thumb {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.content .list-group .list .post .post-des {
+    margin-left: 0;
+    margin-right: 15px;
+    float: right;
+}
+.content.content-with-sidebar .list-group .group-item-grid-default {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.content.content-with-sidebar .list-group .grid-default {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.content.content-with-sidebar .list-group .list .post .post-thumb {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.content.content-with-sidebar .list-group .list .post .post-des {
+    margin-left: 0;
+    margin-right: 15px;
+    float: right;
+}
+.content.content-with-sidebar .list-group .landing-extra-small .post .post-des {
+    padding: 15px 10px 15px 0;
+}
+.content.content-with-sidebar .list-group .landing-extra-small .post .post-des h6 {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+/* ==========================================================================
+	8- footer
+   ========================================================================== */
+footer .widgetBox .widgetContent .media-object .media-object-section .media-content p i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+footer .widgetBox .widgetContent .media-object .media-object-section .media-content p span {
+    margin-left: 0;
+    margin-right: 5px;
+}
+footer .widgetBox .widgetContent ul li.cat-item {
+    float: right;
+}
+footer .widgetBox .widgetContent ul li.cat-item a {
+    margin-right: 0;
+    margin-left: 20px;
+}
+footer #back-to-top {
+    left: 40px !important;
+}
+
+/* ==========================================================================
+	9- sidebar
+   ========================================================================== */
+.sidebar .sidebarBg {
+    right: 0;
+}
+.sidebar .widgetBox #searchform input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.sidebar .widgetBox #searchform input[type="submit"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.sidebar .widgetBox .widgetContent .accordion .accordion-content ul li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.sidebar .widgetBox .widgetContent .accordion .accordion-content ul li a span {
+    float: left;
+}
+.sidebar .widgetBox .widgetContent .video-box .video-box-content p span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.sidebar .widgetBox .widgetContent .video-box .video-box-content p span i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.sidebar .widgetBox .widgetContent .media-object .media-object-section .media-content p i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.sidebar .widgetBox .widgetContent .media-object .media-object-section .media-content p span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.sidebar .widgetBox .widgetContent .twitter-carousel .twitter-item i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.sidebar .widgetBox .widgetContent .twitter-carousel .twitter-item span {
+    float: right;
+}
+.sidebar .widgetBox .widgetContent ul li.cat-item {
+    float: right;
+}
+.sidebar .widgetBox .widgetContent ul li.cat-item a {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.sidebar .widgetBox .widgetContent .profile-overview li a {
+    float: right;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.sidebar .widgetBox .widgetContent .profile-overview li a:hover {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.sidebar .widgetBox .widgetContent .profile-overview li a i {
+    border-right: none;
+    border-left: 1px solid #ececec;
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.sidebar .widgetBox .widgetContent .profile-overview li a.active {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.sidebar .widgetBox .widgetContent .profile-overview a.button i {
+    margin-right: 0;
+    margin-left: 13px;
+}
+.sidebar .widgetBox .newsLetter input[type="email"] {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.sidebar .widgetBox .newsLetter input[type="submit"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.sidebar .widgetBox .item-video .video-des {
+    padding: 15px 10px 0 0;
+}
+.sidebar .widgetBox .item-video .video-des .post-stats p {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.sidebar .widgetBox .item-video .video-des .post-stats p i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* ==========================================================================
+	10- carousel Slider
+   ========================================================================== */
+#carouselSlider .item .inner-item .item-title {
+    bottom: 0;
+    right: 0;
+}
+#carouselSlider .item .inner-item .item-title span {
+    left: auto;
+    right: 12px;
+}
+
+/* ==========================================================================
+	11- off canvas menu
+   ========================================================================== */
+.light-off-menu .off-menu-close h3 {
+    float: right;
+}
+.light-off-menu .off-menu-close span {
+    text-align: left;
+}
+.light-off-menu .off-menu li .submenu li a {
+    padding: 15px 40px 15px 0;
+}
+.light-off-menu .off-social {
+    padding: 0 20px 0 0;
+}
+.light-off-menu .responsive-search .input-group-button button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/* ==========================================================================
+	12- random media
+   ========================================================================== */
+#randomMedia .random-media-head .tabs li a {
+    margin-right: 0;
+    margin-left: 36px;
+}
+#randomMedia .random-media-head .tabs li:last-of-type a {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* ==========================================================================
+	14- vertical thumb slider
+   ========================================================================== */
+.thumb-slider .main-image {
+    float: right;
+    overflow: hidden;
+}
+.thumb-slider .thumbs {
+    float: right;
+}
+.thumb-slider .thumbs a {
+    right: 0;
+}
+.thumb-slider .thumbs .thumbnails {
+    float: right;
+}
+.thumbs .thumbnails .ver-thumbnail .item-title {
+    right: 0;
+}
+.thumbs .thumbnails .ver-thumbnail .item-title h6 {
+    padding-left: 0;
+    padding-right: 12px;
+}
+.thumbs .thumbnails .ver-thumbnail .item-title span {
+    left: auto;
+    right: 12px;
+}
+
+/* ==========================================================================
+	15- Single Video Post
+   ========================================================================== */
+#breadcrumb .breadcrumbs li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.SinglePostStats .media-object .media-object-section:first-child {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.SinglePostStats .media-object .author-img-sec {
+    padding: 15px 0 15px 15px;
+}
+.SinglePostStats .media-object .author-des .post-title {
+    float: right;
+}
+.SinglePostStats .media-object .author-des .post-title p span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.SinglePostStats .media-object .author-des .post-title p span i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.SinglePostStats .media-object .author-des .subscribe {
+    float: left;
+}
+.SinglePostStats .media-object .social-share .post-like-btn form button {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.SinglePostStats .media-object .social-share .post-like-btn form button i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.SinglePostStats .media-object .social-share .post-like-btn .secondary-button {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.singlePostDescription .heading i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.singlePostDescription .description ul {
+    margin-left: 0;
+    margin-right: 13px;
+}
+.singlePostDescription .description ul li {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.singlePostDescription .description ul li:before {
+    left: 0;
+    right: -20px;
+}
+.singlePostDescription .description button i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.comments .comment-box .media-object .comment-img {
+    border-right: 0;
+    border-left: 1px solid #ececec;
+}
+.comments .comment-box .media-object .comment-textarea input[type="submit"] {
+    float: left;
+}
+.comments .comment-sort {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.main-comment .media-object .comment-desc .comment-title .time i {
+    padding-right: 0;
+    padding-left: 5px;
+}
+.main-comment .media-object .comment-desc .comment-btns span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.main-comment .media-object .comment-desc .comment-btns span:nth-of-type(2) a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.main-comment .media-object .comment-desc .comment-btns span:nth-of-type(3) i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/* ==========================================================================
+	16- Profile Page
+   ========================================================================== */
+.topProfile-inner .upload-bg .btn-upload i {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.topProfile-inner .upload-bg .btn-upload span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.topProfile .profile-stats {
+    right: 0;
+}
+.topProfile .profile-stats .profile-subscribe {
+    left: 0;
+    right: 20%;
+}
+.topProfile .profile-stats .profile-subscribe span {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.topProfile .profile-stats .profile-subscribe span i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.topProfile .profile-stats .profile-subscribe button {
+    margin-left: 0;
+    margin-right: -4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.topProfile .profile-stats .profile-share {
+    right: auto;
+    left: 10%;
+}
+.topProfile .profile-stats .profile-author-img .btn-upload {
+    left: 0;
+    right: 8px;
+}
+.topProfile .profile-stats .profile-author-img .btn-upload i {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.topProfile .profile-stats .profile-author-img .btn-upload span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.topProfile .profile-stats .profile-author-name {
+    margin-left: 0;
+    margin-right: 160px;
+}
+.followers .follower {
+    padding-right: 0;
+    padding-left: 13px;
+}
+.profile-inner .heading i {
+    margin-right: 0;
+    margin-left: 13px;
+}
+.profile-inner .profile-videos .profile-video .media-object .media-img-content {
+    padding-left: 0;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-img {
+    border-right: none;
+    border-left: 1px solid #ececec;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-content {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-detail {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-detail .video-stats span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-detail .video-stats span i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-btns {
+    text-align: left;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-btns a.video-btn {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-btns a.video-btn i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.profile-inner .profile-videos .profile-video .media-object .video-btns button[type="submit"] i {
+    margin-right: 0;
+    margin-left: 9px;
+}
+.profile-settings .setting-form .setting-form-inner input {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.profile-settings .setting-form .setting-form-inner textarea {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+/* ==========================================================================
+	17- Submit Post
+   ========================================================================== */
+.submit-post .radio .customLabel:before {
+    left: 0;
+    right: -20px;
+}
+.submit-post .radio .customLabel {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.submit-post .upload-video .button {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.submit-post .upload-video span {
+    padding-right: 0;
+    padding-left: 30px;
+}
+.submit-post .video-layout {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+/* ==========================================================================
+	18-login - register
+   ========================================================================== */
+.registration .social-login .social-login-btn a i {
+    margin-right: 0;
+    margin-left: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.registration .register-form .input-group .input-group-label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.registration .register-form .input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.registration .register-form .input-group .form-error {
+    right: 0;
+    left: 10px;
+}
+.registration .register-form .loginclick {
+    text-align: left;
+}
+.registration .register-form .loginclick a:nth-of-type(1) {
+    float: right;
+}
+.registration .user-contacts .contact-stats i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* ==========================================================================
+	19- pagination
+   ========================================================================== */
+.pagination {
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.pagination a.prev {
+    display: inline-block;
+    height: 30px;
+    background: #f6f6f6;
+    width: auto;
+    color: #6c6c6c;
+    font-size: 13px;
+    line-height: 30px;
+    border: 1px solid #ececec;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.pagination a.next {
+    display: inline-block;
+    height: 30px;
+    background: #f6f6f6;
+    width: auto;
+    color: #6c6c6c;
+    font-size: 13px;
+    line-height: 30px;
+    border: 1px solid #ececec;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.pagination a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #f6f6f6;
+    color: #6c6c6c;
+    font-size: 13px;
+    line-height: 30px;
+    border: 1px solid #ececec;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.pagination a:hover {
+    background: #e96969;
+    border-color: #e96969;
+    color: #fff;
+}
+.pagination span.current {
+    background: #e96969;
+    border: 1px solid #e96969;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+	page-content
+   ========================================================================== */
+article.page-content {
+    padding: 20px 0 0 0;
+}
+article.page-content p {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+article.page-content p:last-of-type {
+    margin-bottom: 100px;
+}
+article.page-content ul {
+    margin-bottom: 30px;
+    font-size: 13px;
+    margin-left: 0;
+    list-style: none;
+}
+article.page-content ul li {
+    font-size: inherit;
+}
+article.page-content ul li i {
+    display: inline-block;
+    font-size: inherit;
+    color: #6c6c6c;
+    margin-right: 15px;
+}
+article.page-content ol {
+    margin-bottom: 30px;
+    margin-left: 38px;
+    font-size: 13px;
+    list-style: none;
+}
+article.page-content ol li {
+    font-size: inherit;
+    margin-bottom: 30px;
+}
+article.page-content ol li span {
+    display: inline-block;
+    font-size: inherit;
+    color: #444;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+	21- blog
+   ========================================================================== */
+.blog-post .blog-post-heading p span {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.blog-post .blog-post-heading p span i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.blog-post .blog-post-content ul {
+    margin-right: 0;
+}
+.blog-post .blog-post-content ul li i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.blog-post .blog-post-content blockquote {
+    padding: 15px 65px 15px 25px;
+}
+.blog-post .blog-post-content blockquote:before {
+    left: 0;
+    right: 25px;
+}
+.blog-post .blog-post-content .blog-post-extras .extras button i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.blog-post .blog-post-content .blog-post-extras .extras .easy-share button[data-easyshare-button] {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.blog-post .blog-post-content .blog-pagination a {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.blog-post .blog-post-content .blog-pagination a i.left-arrow {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.blog-post .blog-post-content .blog-pagination a i.right-arrow {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* ==========================================================================
+	22- 404 error page
+   ========================================================================== */
+.my-panel {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    transform: translateX(100%);
+    transition: transform ease .25s;
+    z-index: 999;
+    overflow-y: auto;
+}
+.my-panel.is-active {
+    transform: translateX(0);
+}
+.inner-video .tabs .tabs-title > a {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.inner-video .tabs .tabs-title > a i {
+    margin-right: 0;
+    margin-left: 6px;
+}
+.item.twitter-item i{
+    margin-right: 0;
+    margin-left: 15px;
+}
+.blog-post .blog-post-content .blog-post-extras .extras a{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.tabs-title a span{
+	margin-right:0;
+	margin-left:15px;
+}
+/*BlogSection*/
+#blog-section #owl-blog .item-blog figure figcaption p span{	
+	margin-left: 10px;
+	margin-right:0;
+}
+#blog-section #owl-blog .item-blog figure figcaption p span i{	
+	margin-left: 5px;
+	margin-right:0;
+}
+/*BlogSection*/
+.content .main-heading .tabs li.tabs-title a{
+	width:auto;
+	padding:0 10px;
+}
+.sidebar .widgetBox .widgetContent .video-box .video-box-content{
+	padding-right:10px;	
+}
+.alignleft{
+    float: right;
+    padding-left: 30px;
+    padding-right: 0;
+}
+.alignright{
+    float: left;
+    padding-right: 30px;
+    padding-left: 0;
+}
+.carouselSlider__magzine .item .inner-item.inner-item-big .item-title{
+	padding-left:0;
+	padding-right:15px;
+}
+@media (min-width: 320px) and (max-width: 1024px){
+	#navBar .topnav .title-bar .menu-icon{
+		float:right !important;
+	}
+}
+/* ==========================================================================
+	23- beTube MAG
+   ========================================================================== */
+  
+#boxed .side__adv_left{
+
+    left: auto;
+    right: 12px;
+}
+#boxed .side__adv_right{
+    right: auto;
+    left: 12px;
+}
+
+.content .list-group.fullwidth-group .group-item-grid-default .post .post-des .post-stats p,
+.content .list-group.fullwidth-group .grid-default .post .post-des .post-stats p{
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+
+.carouselSlider__magzine .item .inner-item .item-title h3{
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.carouselSlider__magzine .item .inner-item .item-title > .author{
+    padding-left: 0;
+    padding-right: 12px;
+}
+/* media object with flexbox */
+
+
+.Media-figure {
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+
+
+.Media--reverse > .Media-figure {
+    margin: 0 1em 0 0;
+}
+/*
+.betube_mag__heading_right a.prev_mag_carousel{
+    padding-right: 0;
+    padding-left: 15px;
+}
+.betube_mag__heading_right a.next_mag_carousel{
+    padding-left: 0;
+    padding-right: 15px;
+}
+.betube_mag__heading_right a.prev_mag_carousel:after{
+    right: auto;
+    left: -3px;
+}*/
+.betube_mag__item_cat{
+    left: auto;
+    right: 10px;
+}
+.betube_mag__item_icon{
+    left: auto;
+    right: 10px;
+}
+
+.custom__button_carousel:before{
+
+    left: auto;
+    right: 0;
+
+}
+.betube_mag__view_all{
+    left: auto;
+    right: 0;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.tabs-title .dropdown-pane.is-open > li.tabs-title{
+    text-align: left !important;
+}
+.view-all-btn a i{
+    padding-left: 0;
+    padding-right: 5px;
+}
+/* magzine widgets */
+.widgetbox_bemag .tagcloud a{
+    margin-right: 0;
+    margin-left: 2px;
+}
+.widgetbox_bemag__category .widgetbox_bemag__content a span{
+    float: left;
+}
+.mag_post__text ul li:before{
+    left: auto;
+    right: -25px;
+}
+.mag_post__text ul li{
+    float: right;
+    padding-right: 0;
+    padding-left: 35px;
+}
+.betube_mag__heading_head{
+    padding-left: 0;
+    padding-right: 10px;
+} 
+.betube_mag__item:hover .betube_mag__item_icon{
+    left: auto;
+	right:50%;   
+    transform: translate(50%, -50%);   
+}
