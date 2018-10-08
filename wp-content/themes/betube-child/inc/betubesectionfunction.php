@@ -125,52 +125,72 @@ function beTubeGetSectionContent($sectionTitle, $sectionCategory, $sectionView, 
                                             ?>
                                             <img src="<?php echo esc_url($thumbURL); ?>" alt="<?php echo $altTag; ?>"/>
 
-                                            <div class="overlay"></div>
-
                                             <a href="<?php the_permalink(); ?>" class="hover-posts">
-                                                <span><i class="fa fa-play"></i></span>
+                                                <span><i class="fa fa-play"></i><?php esc_html_e('Watch Video', 'betube'); ?></span>
                                             </a>
-                                            <div class="video-information clearfix">
-                                                <h3>
-                                                    <a href="<?php the_permalink(); ?>">
-                                                        <?php $theTitle = get_the_title();
-                                                        echo $theTitle; ?>
-                                                    </a>
-                                                </h3>
-                                                <div class="post-stats clearfix">
-                                                    <p class="pull-left">
-                                                        <span><b><?php echo betube_get_post_views(get_the_ID()); ?></b></span>
-                                                        <span> views</span>
-                                                    </p>
-                                                    <p class="pull-left">
-                                                        <span>
-                                                            <b>
-                                                                <?php
-                                                                $beTubePostTime = get_post_meta($post->ID, 'post_time', true);
-                                                                if (!empty($beTubePostTime)) {
-                                                                    ?>
-                                                                    <?php echo $beTubePostTime; ?>
-                                                                <?php } ?>
-                                                            </b>
-                                                        </span>
-                                                        <span> minutes</span>
-                                                    </p>
-                                                </div><!--post-stats-->
-                                            </div>
+                                            <div class="video-stats clearfix">
+                                                <?php
+                                                $beTubePostHD = get_post_meta($post->ID, 'post_quality', true);
+                                                if (!empty($beTubePostHD)) {
+                                                    ?>
+                                                    <div class="thumb-stats pull-left">
+                                                        <h6><?php echo $beTubePostHD; ?></h6>
+                                                    </div>
+                                                <?php } ?>
+                                                <?php
+                                                include_once(ABSPATH . 'wp-admin/includes/plugin.php');
+                                                if (is_plugin_active("betube-helper/index.php")) {
+                                                    ?>
+                                                    <div class="thumb-stats pull-left">
+                                                        <!--<i class="fa fa-heart"></i>-->
+                                                        <span><?php echo get_simple_likes_button(get_the_ID()); ?></span>
+                                                    </div>
+                                                <?php } ?>
+                                                <?php
+                                                $beTubePostTime = get_post_meta($post->ID, 'post_time', true);
+                                                if (!empty($beTubePostTime)) {
+                                                    ?>
+                                                    <div class="thumb-stats pull-right">
+                                                        <span><?php echo $beTubePostTime; ?></span>
+                                                    </div>
+                                                <?php } ?>
+                                            </div><!--video-stats-->
                                         </div><!--post-thumb-->
                                         <div class="post-des">
+                                            <h6>
+                                                <a href="<?php the_permalink(); ?>">
+                                                    <?php $theTitle = get_the_title();
+                                                    echo $theTitle; ?>
+                                                </a>
+                                            </h6>
+                                            <div class="post-stats clearfix">
+                                                <p class="pull-left">
+                                                    <i class="fa fa-user"></i>
+                                                    <?php
+                                                    $user_ID = $post->post_author;
+                                                    ?>
+                                                    <span><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author_meta('display_name', $user_ID); ?></a></span>
+                                                </p>
+                                                <p class="pull-left">
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <?php $beTubedateFormat = get_option('date_format'); ?>
+                                                    <span><?php echo get_the_date($beTubedateFormat, $post_id); ?></span>
+                                                </p>
+                                                <p class="pull-left">
+                                                    <i class="fa fa-eye"></i>
+                                                    <span><?php echo betube_get_post_views(get_the_ID()); ?></span>
+                                                </p>
+                                            </div><!--post-stats-->
                                             <div class="post-summary">
                                                 <p>
-                                                    <b><?php echo substr(get_the_excerpt(), 0, 260); ?></b>
+                                                    <?php echo substr(get_the_excerpt(), 0, 260); ?>
                                                 </p>
                                             </div><!--post-summary-->
-                                            <div>
-                                                <p class="pull-left">
-                                                    <span>posted on </span>
-                                                    <?php $beTubedateFormat = get_option('date_format'); ?>
-                                                    <span><b><?php echo get_the_date($beTubedateFormat, $post_id); ?></b></span>
-                                                </p>
-                                            </div>
+                                            <div class="post-button">
+                                                <a href="<?php the_permalink(); ?>" class="secondary-button"><i
+                                                            class="fa fa-play-circle"></i><?php esc_html_e('Watch Video', 'betube'); ?>
+                                                </a>
+                                            </div><!--post-button-->
                                         </div><!--post-des-->
                                     </div><!--post thumb-border-->
                                 </div><!--item-->
